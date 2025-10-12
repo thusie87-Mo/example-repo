@@ -1,0 +1,4 @@
+Country,Code,Product,Cost,Quantity
+South Africa,SKU2452,Nike Jordans,2299,99
+China,SKU9250,Addidas Samba,1100,45
+USA,SKU4040,Airmax,2500,60

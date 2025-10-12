@@ -1,0 +1,51 @@
+1. Find the Largest Positive Number Entered
+
+Initialize max_number to 0
+Repeat:
+    Prompt user to enter a positive number
+    Read number
+    If number > max_number:
+        Set max_number = number
+Until number = 0
+Output "The largest number entered is", max_number
+
+
+2. Greet the User by Name
+
+Prompt user to enter their name
+Read first_name
+Output first_name + " Hello, World"
+
+
+3. Calculate Arithmetic Average of Integers
+
+Initialize total to 0
+Initialize count to 0
+Repeat:
+    Prompt user to enter an integer (or type 'done' to finish)
+    Read input
+    If input is not 'done':
+        Convert input to integer
+        Add input to total
+        Increment count by 1
+Until input is 'done'
+If count > 0:
+    Set average = total / count
+    Output "The average is", average
+Else:
+    Output "No numbers were entered."
+
+
+4. Print Remaining Grocery Items in Alphabetical Order
+
+Initialize grocery_list as empty list
+Repeat:
+    Prompt user to enter a grocery item (or type 'done' to finish)
+    Read item
+    If item is not 'done':
+        Add item to grocery_list
+Until item is 'done'
+Sort grocery_list alphabetically
+Output "Items left to buy:"
+For each item in grocery_list:
+    Output item

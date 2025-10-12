@@ -1,0 +1,11 @@
+# Prompts the user to input a number between 1 and 100
+num = int(input("Please input a number between 1 and 100"))
+# Checks if the number is lower than 9, higher than 10 or exactly 10.
+if num < 9:
+ print("The value you entered is lower than 9")
+elif num > 10:
+ print("The value you entered is higher than 10")
+elif num < 10:
+ print("The value you entered is lower than 10")
+else:
+ print("The value you entered is 10")
