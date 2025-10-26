@@ -1,2 +1,0 @@
-
-https://github.com/thusie87-Mo/git-task.git
